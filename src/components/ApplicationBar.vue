@@ -1,0 +1,32 @@
+<template>
+  <v-app-bar
+    app
+    color="indigo"
+    dark
+>
+    <v-tabs
+    fixed-tabs
+    background-color="indigo"
+    dark
+    >
+    <v-tab>
+        Home/About 
+    </v-tab>
+    <v-tab>
+        Blog
+    </v-tab>
+    <v-tab>
+        Blankets
+    </v-tab>
+    <v-tab>
+        Scarves
+    </v-tab>
+    <v-tab>
+        Books
+    </v-tab>
+    <v-tab>
+        Contact Me
+    </v-tab>
+    </v-tabs>
+  </v-app-bar>
+</template>
