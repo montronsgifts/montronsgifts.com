@@ -73,13 +73,21 @@
               website, contact her and she would love to help create something special for you.
             </p> 
 
+            <v-layout justify-center class="pb-5">
+              <v-card flat>
+                <v-img
+                  max-width="700"
+                  max-height="510"
+                  src="../assets/blankets-books.jpeg"
+                ></v-img>
+              </v-card>
+            </v-layout>
+
             <p class="text-center" style="color:black; font-size:105%;">
-              All of Monica's creations that are currently finished and for sale can by found on her Etsy page.<br>
-              Links to her Etsy page can be found in her Blankets and Scarves tab. <br>
-              A link to purchase her books can be found in the Books tab. <br> 
+              All of Monica's creations that are currently finished and for sale can by found on her 
+              <a href="https://www.etsy.com/shop/MonTronsGifts">Etsy Page</a>.
             </p> 
           
-                
           </v-col>
         </v-row>
       </v-container>
