@@ -19,7 +19,7 @@
 
 
 <script>
-  import ImageCards from "./ImageCards"
+  import ImageCards from "@/components/ImageCards"
 
   export default {
     props: {

@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomePage from './components/HomePage'
-import Books from './components/Books'
-import Scarves from './components/Scarves'
-import Blankets from './components/Blankets'
-import ContactMe from './components/ContactMe'
+import HomePage from '@/views/HomePage'
+import Books from '@/views/Books'
+import Scarves from '@/views/Scarves'
+import Blankets from '@/views/Blankets'
+import Contact from '@/views/Contact'
 
 Vue.use(Router)
 
@@ -32,9 +32,9 @@ let router = new Router({
             component: Blankets 
         },
         {
-            path: '/contactme',
-            name: 'contactme',
-            component: ContactMe 
+            path: '/contact',
+            name: 'contact',
+            component: Contact
         }
        
     ]

@@ -1,19 +1,18 @@
 <template>
   <v-app>
-    <ApplicationBar />
-
+    <Navigation />
     <router-view></router-view>
   </v-app>
 </template>
 
 <script>
-import ApplicationBar from './components/ApplicationBar'
+import Navigation from './components/Navigation'
 
 export default {
   name: 'App',
 
   components: {
-    ApplicationBar,
+    Navigation
   },
 
   data: () => ({
