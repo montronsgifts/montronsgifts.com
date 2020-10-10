@@ -3,7 +3,6 @@
     <v-row>
       <v-card
         max-width="300"
-        class="ma-7 pt-5"
         v-for="input in items"
         :key="input.name"
         flat
@@ -11,7 +10,7 @@
         <v-container>
           <v-row justify="center">
             <v-img
-              max-width="200"
+              max-height="250"
               contain
               class="pb-5"
               :src="input.image"
