@@ -35,19 +35,23 @@
         list: [
           {
               name: "ABCs with Animals",
-              image: require("../assets/ABCs-with-Animals.png")
+              image: require("../assets/ABCs-with-Animals.png"),
+              available: true
           },
           {
               name: "123 at the Zoo",
-              image: require("../assets/123-at-the-Zoo.png")
+              image: require("../assets/123-at-the-Zoo.png"),
+              available: true
           },
           {
               name: "ABCs at School",
-              image: require("../assets/ABCs-at-School.png")
+              image: require("../assets/ABCs-at-School.png"),
+              available: true
           },
           {
               name: "123 at the Candy Shop",
-              image: require("../assets/123-at-the-Candy-Shop.png")
+              image: require("../assets/123-at-the-Candy-Shop.png"),
+              available: true
           }
         ]
       }

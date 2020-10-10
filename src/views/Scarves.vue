@@ -32,87 +32,108 @@
         list: [
           {
               name: "Orange, Black & White Chunky Stitch",
-              image: require("../assets/scarves/bengals-scarf.jpeg")
+              image: require("../assets/scarves/bengals-scarf.jpeg"),
+              available: true
           },
           {
               name: "Black & Gray Variegated Thick & Soft Single Stitch",
-              image: require("../assets/scarves/black-fuzzy-scarf.jpeg")
+              image: require("../assets/scarves/black-fuzzy-scarf.jpeg"),
+              available: false
           },
           {
               name: "Black and Gray Single-Double Stitch",
-              image: require("../assets/scarves/black-gray-scarf.jpeg")
+              image: require("../assets/scarves/black-gray-scarf.jpeg"),
+              available: false
           },
           {
               name: "Black & Gray Variegated Thick & Soft Single Stitch",
-              image: require("../assets/scarves/black-gray-white-scarf.jpeg")
+              image: require("../assets/scarves/black-gray-white-scarf.jpeg"),
+              available: true
           },
           {
               name: "Black Half-Double Stitch",
-              image: require("../assets/scarves/black-scarf.jpeg")
+              image: require("../assets/scarves/black-scarf.jpeg"),
+              available: true
           },
           {
               name: "Black & White Single-Double Stitch",
-              image: require("../assets/scarves/black-white-scarf.jpeg")
+              image: require("../assets/scarves/black-white-scarf.jpeg"),
+              available: true
           },
           {
               name: "Blue, Purple & Green Variegated Thick & Soft Single Stitch",
-              image: require("../assets/scarves/blue-fuzzy-scarf.jpeg")
+              image: require("../assets/scarves/blue-fuzzy-scarf.jpeg"),
+              available: true
           },
           {
               name: "Blue & White Chunky Stitch",
-              image: require("../assets/scarves/blue-scarf.jpeg")
+              image: require("../assets/scarves/blue-scarf.jpeg"),
+              available: true
           },
           {
               name: "Lime Green, Navy, & White Chunky Stitch",
-              image: require("../assets/scarves/green-black-scarf.jpeg")
+              image: require("../assets/scarves/green-black-scarf.jpeg"),
+              available: true
           },
           {
               name: "Burgundy & Blue Variegated Thick & Soft Single Stitch",
-              image: require("../assets/scarves/multi-color-scarf.jpeg")
+              image: require("../assets/scarves/multi-color-scarf.jpeg"),
+              available: true
           },
           {
               name: "Red, Gray & White Chunky Stitch Stitch",
-              image: require("../assets/scarves/ohio-state-scarf.jpeg")
+              image: require("../assets/scarves/ohio-state-scarf.jpeg"),
+              available: true
           },
           {
               name: "Burnt Orange Thick & Soft Single Stitch",
-              image: require("../assets/scarves/orange-fuzzy-scarf.jpeg")
+              image: require("../assets/scarves/orange-fuzzy-scarf.jpeg"),
+              available: true
           },
           {
               name: "Peach & White Chunky Stitch",
-              image: require("../assets/scarves/orange-white-scarf.jpeg")
+              image: require("../assets/scarves/orange-white-scarf.jpeg"),
+              available: true
           },
           {
               name: "Lavendar & Gray Variegated Thick & Soft Single Stitch",
-              image: require("../assets/scarves/pink-scarf.jpeg")
+              image: require("../assets/scarves/pink-scarf.jpeg"),
+              available: true
           },
           {
               name: "Purple & Lavendar Single Stitch",
-              image: require("../assets/scarves/purple-stripe-scarf.jpeg")
+              image: require("../assets/scarves/purple-stripe-scarf.jpeg"),
+              available: true
           },
           {
               name: "Burguny Thick & Soft Single Stitch",
-              image: require("../assets/scarves/red-long-scarf.jpeg")
+              image: require("../assets/scarves/red-long-scarf.jpeg"),
+              available: true
           },
           {
               name: "Burguny Thick & Soft Single Stitch",
-              image: require("../assets/scarves/red-scarf.jpeg")
+              image: require("../assets/scarves/red-scarf.jpeg"),
+              available: true
           },
           {
               name: "Blue & Gray Wavelength Stitch",
-              image: require("../assets/scarves/scarf.jpeg")
+              image: require("../assets/scarves/scarf.jpeg"),
+              available: true
           },
           {
               name: "Yellow, Gray & White Half-Double Stitch",
-              image: require("../assets/scarves/yellow-white-gray-scarf.jpeg")
+              image: require("../assets/scarves/yellow-white-gray-scarf.jpeg"),
+              available: true
           },
           {
               name: "Pink & White with Colorful Stripes Half-Double Stitch",
-              image: require("../assets/scarves/pink-stripe-scarf.jpeg")
+              image: require("../assets/scarves/pink-stripe-scarf.jpeg"),
+              available: true
           },
           {
               name: "Pink, Green & White Chunky Stitch",
-              image: require("../assets/scarves/green-pink-scarf.jpeg")
+              image: require("../assets/scarves/green-pink-scarf.jpeg"),
+              available: true
           }
         ]
       }
