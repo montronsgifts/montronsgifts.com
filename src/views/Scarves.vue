@@ -28,14 +28,29 @@
       return {
         list: [
           {
-              name: "Orange, Black & White Chunky Stitch",
-              image: require("../assets/scarves/bengals-scarf.jpeg"),
-              available: true
+            name: "Infinity Mustard",
+            image: require("../assets/scarves/infinity-mustard.jpeg"),
+            available: true
           },
           {
-              name: "Black & Gray Variegated Thick & Soft Single Stitch",
-              image: require("../assets/scarves/black-fuzzy-scarf.jpeg"),
-              available: false
+            name: "Infinity Black & White",
+            image: require("../assets/scarves/infinity-black-white.jpeg"),
+            available: true
+          },
+          {
+            name: "Infinity Purple",
+            image: require("../assets/scarves/infinity-purple.jpeg"),
+            available: true
+          },
+          {
+            name: "Orange, Black & White Chunky Stitch",
+            image: require("../assets/scarves/bengals-scarf.jpeg"),
+            available: true
+          },
+          {
+            name: "Black & Gray Variegated Thick & Soft Single Stitch",
+            image: require("../assets/scarves/black-fuzzy-scarf.jpeg"),
+            available: false
           },
           {
               name: "Black and Gray Single-Double Stitch",
@@ -66,6 +81,11 @@
               name: "Blue & White Chunky Stitch",
               image: require("../assets/scarves/blue-scarf.jpeg"),
               available: true
+          },
+          {
+            name: "Gray Scarf",
+            image: require("../assets/scarves/gray-scarf.jpeg"),
+            available: true
           },
           {
               name: "Lime Green, Navy, & White Chunky Stitch",

@@ -28,6 +28,14 @@
       return {
         list: [
           {
+              name: "White Basket",
+              image: require("../assets/baskets/white-basket.jpeg"),
+          },
+          {
+              name: "Stripe Basket Group",
+              image: require("../assets/baskets/stripe-basket-group.jpeg"),
+          },
+          {
               name: "Coral Basket",
               image: require("../assets/baskets/coral-basket.jpeg"),
           },
@@ -38,10 +46,6 @@
           {
               name: "Purple Basket",
               image: require("../assets/baskets/purple-basket.jpeg"),
-          },
-          {
-              name: "White Basket",
-              image: require("../assets/baskets/white-basket.jpeg"),
           }
         ]
       }
