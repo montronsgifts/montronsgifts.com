@@ -4,12 +4,7 @@
       <h1> Crocheted & Tie Blankets </h1>
     </v-col> 
 
-    <v-col class="text-center" style="color:black; font-size: 100%">
-    <p>
-      To find the current Crocheted and Tie Blankets that are for sale, visit my
-      <a href="https://www.etsy.com/shop/MonTronsGifts">Etsy Page</a>.
-      </p> 
-      </v-col> 
+    <SubHeader title="Crocheted and Tie Blankets" />
 
     <v-tabs
       fixed-tabs
@@ -25,6 +20,7 @@
 
 <script>
   import ImageCards from '@/components/ImageCards'
+  import SubHeader from '@/components/SubHeader'
 
   export default {
     props: {
@@ -33,6 +29,7 @@
 
     components: {
       ImageCards,
+      SubHeader
     },
 
     data (){

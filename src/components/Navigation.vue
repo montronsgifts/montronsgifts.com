@@ -50,6 +50,7 @@
     data: () => ({
       drawer: false,
       items: [
+        {name: "Books", link: "/books"},
         {name: "Blankets", link: "/blankets"},
         {name: "Scarves", link: "/scarves"},
         {name: "Contact Me", link: "/contact"}

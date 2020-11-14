@@ -4,12 +4,7 @@
       <h1> Scarves </h1>
     </v-col> 
 
-    <v-col class="text-center" style="color:black; font-size: 100%">
-       <p>
-      To find the current Scarves that are for sale, visit my
-      <a href="https://www.etsy.com/shop/MonTronsGifts">Etsy Page</a>.
-      </p> 
-   </v-col> 
+    <SubHeader title="Scarves" />
 
     <ImageCards :items="list" :scarves=true></ImageCards>
   </v-content>
@@ -17,6 +12,7 @@
 
 <script>
   import ImageCards from "@/components/ImageCards"
+  import SubHeader from "@/components/SubHeader"
 
   export default {
     props: {
@@ -25,6 +21,7 @@
 
     components: {
       ImageCards,
+      SubHeader
     },
     
     data (){
@@ -46,7 +43,7 @@
               available: false
           },
           {
-              name: "Black & Gray Variegated Thick & Soft Single Stitch",
+              name: "Black, Gray & White Variegated Thick & Soft Single Stitch",
               image: require("../assets/scarves/black-gray-white-scarf.jpeg"),
               available: true
           },
@@ -106,7 +103,7 @@
               available: true
           },
           {
-              name: "Burguny Thick & Soft Single Stitch",
+              name: "Burguny Thick & Soft Single Stitch Long",
               image: require("../assets/scarves/red-long-scarf.jpeg"),
               available: true
           },

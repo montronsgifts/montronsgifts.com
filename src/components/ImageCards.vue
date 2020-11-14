@@ -1,6 +1,6 @@
 <template>
   <v-container fluid >
-    <v-row>
+    <v-row justify="center">
       <v-card
         max-width="300"
         v-for="input in items"
@@ -15,26 +15,6 @@
               class="pb-5"
               :src="input.image"
             />
-          </v-row>
-          <v-row v-if="input.available" justify="center" class="font-weight-bold primary--text">
-            AVAILABLE
-          </v-row>
-          <v-row v-else justify="center" class="font-weight-bold">
-            SOLD
-          </v-row>
-          <v-row justify="center">
-            <v-btn
-              v-if="input.available"
-              color="primary"
-            >
-            Order
-            </v-btn>
-            <v-btn 
-              v-else
-              color="primary"
-            >
-            Custom Order
-            </v-btn>
           </v-row>
         </v-container>
       </v-card>
