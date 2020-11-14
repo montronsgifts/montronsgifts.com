@@ -10,8 +10,6 @@
   </v-content>
 </template>
 
-
-
 <script>
   import ImageCards from "@/components/ImageCards"
   import SubHeader from '@/components/SubHeader'

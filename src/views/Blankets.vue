@@ -49,6 +49,12 @@
               available: true
           },
           {
+              name: "Chloe Filet Blanket",
+              type: "crochet",
+              image: require("../assets/blankets/chloe-filet-blanket.jpeg"),
+              available: true
+          },
+          {
               name: "Green, Orange, Blue & White Granny Stripe Stitch",
               type: "crochet",
               image: require("../assets/blankets/green-orange-blue-blanket.jpg"),
@@ -148,6 +154,12 @@
               name: "Dumptrucks with Red Backing",
               type: "tie",
               image: require("../assets/blankets/dumptruck-tie-blanket.jpg"),
+              available: false
+          },
+          {
+              name: "Flamingo Filet Blanket",
+              type: "crochet",
+              image: require("../assets/blankets/flamingo-filet-blanket.jpeg"),
               available: false
           },
           {

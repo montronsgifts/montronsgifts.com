@@ -50,9 +50,17 @@
     data: () => ({
       drawer: false,
       items: [
-        {name: "Books", link: "/books"},
+        {name: "Bags", link: "/bags"},
+        {name: "Baskets", link: "/baskets"},
         {name: "Blankets", link: "/blankets"},
+        {name: "Books", link: "/books"},
+        {name: "Hats", link: "/hats"},
+        {name: "Letters", link: "/letters"},
+        {name: "Lovies", link: "/lovies"},
+        {name: "Pumpkins", link: "/pumpkins"},
         {name: "Scarves", link: "/scarves"},
+        {name: "Scrubbies", link: "/scrubbies"},
+        {name: "Stuffies", link: "/stuffies"},
         {name: "Contact Me", link: "/contact"}
       ]
     }),
